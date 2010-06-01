@@ -1,0 +1,16 @@
+<inkscape-extension>
+	<name>SVGSlice</name>
+	<id>com.digitalunleashed.output.svgslice</id>
+	<dependency type="executable" location="path">inkscape</dependency>
+	<dependency type="executable" location="path">python</dependency>
+	<dependency type="executable" location="extensions">svgslice.py</dependency>
+	<output>
+		<extension>.xhtml</extension>
+		<mimetype>application/xhtml+xml</mimetype>
+		<filetypename>XHTML file with PNG slices</filetypename>
+		<filetypetooltip>Generate an XHTML webpage and PNG slices, corresponding to rectangles drawn on a hidden "slices" layer.</filetypetooltip>
+	</output>
+	<script>
+		<command reldir="extensions" interpreter="python">svgslice.py</command>
+	</script>
+</inkscape-extension>
