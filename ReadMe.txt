@@ -69,10 +69,3 @@ Windows Support
 
 SVGSlice is developed for unix workstations like BSD and Linux; not Microsoft Windows.  Furthermore, the Inkscape plugin API seems to work differently on each platform.  How to get it working on a non-POSIX-compliant platform like Windows is left as an exercise for the reader.  The main things you'll need to do are: a) install in the right place and change directory paths within the files to match; and b) modify the command lines executed within svgslice.py so that windows understands them.
 
-
-Support
-=======
-
-Please email any bug reports, questions, or comments to:
-
-  lee.b@digitalunleashed.com
